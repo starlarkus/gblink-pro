@@ -41,13 +41,13 @@ The Raspberry Pi operates at **3.3V** logic while the Game Boy uses **5V**. You 
 
 ### Options:
 1. **Adapter board/HAT** - A pre-made board with level shifters built in (can use GB-Link USB adapter board)
-2. **Manual wiring** - Wire level shifters (e.g., TXS0108E, BSS138-based modules) inline between the Pi and link cable
+2. **Manual wiring** - Wire bi directional level shifters (e.g., sparkfun BOB-12009, clone modules can work as well) inline between the Pi and link cable
 
-### Wiring (BCM Pin Numbers)
+### Wiring (Pin Numbers)
 
 Connect through your level shifter:
 
-| Pi Side (3.3V)   | BCM GPIO | Physical Pin | ↔ | Link Cable (5V) |
+| Pi Side (3.3V)   |   GPIO   | Physical Pin | ↔ | Link Cable (5V) |
 |------------------|----------|--------------|---|-----------------|
 | SPI MOSI         | GPIO 10  | Pin 19       | ↔ | SO (Serial Out) |
 | SPI MISO         | GPIO 9   | Pin 21       | ↔ | SI (Serial In)  |
