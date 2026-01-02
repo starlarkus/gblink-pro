@@ -96,7 +96,8 @@ The software currently makes use of the Pokemon-Gen3-to-GenX project to add supp
 
 As such, you must first multiboot into it using the multiboot option. Then, you can select the Gen 3 option to trade.
 
-[![GB-Link Discord](https://discord.gg/MQBu6Ec5BV)
+
+![GB-Link Discord Server](https://discord.gg/MQBu6Ec5BV)
 
 ## License
 
