@@ -88,7 +88,11 @@ To send multiboot directly to GBA (or any other multiboot ROM), use the followin
 ```bash
 ./gba_multiboot_spidev pokemon_gen3_to_genx_mb.gba
 ```
+## Trading using Gen3 games
 
+The software currently makes use of the Pokemon-Gen3-to-GenX project to add support to trading using Pokémon Ruby/Sapphire/Emerald/Fire Red/Leaf Green.
+
+As such, you must first multiboot into it using the multiboot option. Then, you can select the Gen 3 option to trade.
 
 ## License
 
@@ -100,8 +104,11 @@ gba_multiboot_spidev.c is heavily derrived from the implementation at https://gi
 Original usb adapter project by stacksmashing bringing tetris online
 https://github.com/stacksmashing/gb-tetris-web
 
-Fork by classictoni with best of 7 games
+Fork of tetris web client by classictoni with best of 7 games option
 https://github.com/classictoni/gb-tetris-web
 
-Original Pokemon trading client and server. Pokemon client logic is unmodified from this project and clients are cross compatible.
+Original Pokemon trading client and server by Lorenzooone. Pokemon client logic is unmodified from this project and clients are cross compatible.
 https://github.com/Lorenzooone/PokemonGB_Online_Trades
+
+Multiboot homebrew by Lorenzooone to allow for Gen3 trading
+https://github.com/Lorenzooone/Pokemon-Gen3-to-Gen-X
