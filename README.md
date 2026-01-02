@@ -97,7 +97,7 @@ MIT License for everything except gba_multiboot_spidev.c, which is licensed CC0.
 ## Credits
 gba_multiboot_spidev.c is heavily derrived from the implementation at https://github.com/akkera102/gba_03_multiboot, which is licensed CC0. (Found at https://github.com/maciel310/gba-mmo-proxy)
 
-original project by stacksmashing bringing tetris online
+Original usb adapter project by stacksmashing bringing tetris online
 https://github.com/stacksmashing/gb-tetris-web
 
 Fork by classictoni with best of 7 games
