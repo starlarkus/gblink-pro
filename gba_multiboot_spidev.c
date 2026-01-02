@@ -3,7 +3,7 @@
  * Original code derrived from https://github.com/akkera102/gba_03_multiboot (CC0)
  * 
  * Compile: gcc -o gba_multiboot_spidev gba_multiboot_spidev.c
- * Usage: sudo ./gba_multiboot_spidev pokemon_gen3_to_genx_mb.gba
+ * Usage: ./gba_multiboot_spidev pokemon_gen3_to_genx_mb.gba
  */
 
 #include <stdio.h>
