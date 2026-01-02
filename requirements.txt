@@ -1,0 +1,3 @@
+spidev
+RPi.GPIO
+websockets
