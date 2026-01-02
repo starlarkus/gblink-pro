@@ -1,4 +1,4 @@
-# GBLink - Pi Zero Game Boy Link Cable Interface
+# GB-Link Pro - Pi Zero Game Boy Link Cable Interface
 
 Play Game Boy games online using a Raspberry Pi Zero 2W as a link cable bridge to the internet.
 
