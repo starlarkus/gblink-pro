@@ -2,6 +2,8 @@
 
 Play Game Boy games online using a Raspberry Pi Zero 2W as a link cable bridge to the internet.
 
+Cross platform client of online Tetris DMG and Pokemon trading to the PiZero2W for a standalone experience. No longer need a separate computer and adapter connected over USB. CLI menu is the only option at this time.
+
 ## Features
 
 - **Online Multiplayer** - Connect your Game Boy to online servers for multiplayer gaming
