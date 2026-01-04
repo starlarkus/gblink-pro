@@ -1,6 +1,5 @@
 /*
- * GBA Multiboot using spidev (ported from gba-mmo-proxy)
- * Original code derrived from https://github.com/akkera102/gba_03_multiboot (CC0)
+ * GBA Multiboot using spidev (found at gba-mmo-proxy) original repo taken down
  * 
  * Compile: gcc -o gba_multiboot_spidev gba_multiboot_spidev.c
  * Usage: ./gba_multiboot_spidev pokemon_gen3_to_genx_mb.gba
