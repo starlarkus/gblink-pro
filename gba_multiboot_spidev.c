@@ -1,5 +1,5 @@
 /*
- * GBA Multiboot using spidev (found at gba-mmo-proxy) original repo taken down
+ * GBA Multiboot using spidev (found at gba-mmo-proxy) original repo offline
  * 
  * Compile: gcc -o gba_multiboot_spidev gba_multiboot_spidev.c
  * Usage: ./gba_multiboot_spidev pokemon_gen3_to_genx_mb.gba
