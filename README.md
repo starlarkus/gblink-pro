@@ -56,7 +56,7 @@ Connect through your level shifter:
 | Ground           | GND      | Pin 6, etc   | — | GND             |
 
 ## Installation
-
+Assuming base cli Raspberry Pi OS
 ```bash
 # Install system dependencies
 sudo apt update
@@ -90,6 +90,11 @@ To send multiboot directly to GBA (or any other multiboot ROM), use the followin
 ```bash
 ./gba_multiboot_spidev pokemon_gen3_to_genx_mb.gba
 ```
+or
+```bash
+./gba_multiboot_spidev other_multiboot_rom.gba
+```
+
 ## Trading using Gen3 games
 
 The software currently makes use of the Pokemon-Gen3-to-GenX project to add support to trading using Pokémon Ruby/Sapphire/Emerald/Fire Red/Leaf Green.
@@ -101,10 +106,10 @@ As such, you must first multiboot into it using the multiboot option. Then, you 
 
 ## License
 
-MIT License for everything except gba_multiboot_spidev.c, which is licensed CC0.
+MIT License
 
 ## Credits
-gba_multiboot_spidev.c is heavily derrived from the implementation at https://github.com/akkera102/gba_03_multiboot, which is licensed CC0. (Found at https://github.com/maciel310/gba-mmo-proxy)
+gba_multiboot_spidev.c is heavily derrived from the implementation found at https://github.com/maciel310/gba-mmo-proxy
 
 Original usb adapter project by stacksmashing bringing tetris online
 https://github.com/stacksmashing/gb-tetris-web
