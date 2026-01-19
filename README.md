@@ -106,7 +106,7 @@ As such, you must first multiboot into it using the multiboot option. Then, you 
 
 ## License
 
-MIT License
+GPL-3.0 License
 
 ## Credits
 gba_multiboot_spidev.c is heavily derrived from the implementation found at https://github.com/maciel310/gba-mmo-proxy
